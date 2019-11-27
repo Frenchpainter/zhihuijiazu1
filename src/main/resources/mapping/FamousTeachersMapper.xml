@@ -27,7 +27,7 @@
 
     <sql id="Base_Column_List">
     id,school_id,code,username,password,salt,name,sex,admin_id,birthday,weigh,domain,createtime,certificationlevel,
-    certificationimage,updatetime,deletetime,login_ip,login_at,login_num,status
+    certificationimage,updatetime,deletetime,login_ip,login_at,login_num,status;
   </sql>
 
     <select id="findTeacherById">
