@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhihui.zhihuijiazu.Dao.CurriculumCategoryMapper">
+    <resultMap id="BaseResultMap" type="com.zhihui.zhihuijiazu.Entity.CurriculumCategory">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <result column="name" jdbcType="VARCHAR" property="name" />
+        <result column="image" jdbcType="VARCHAR" property="image" />
+        <result column="code" jdbcType="VARCHAR" property="code" />
+        <result column="summary" jdbcType="VARCHAR" property="summary" />
+
+        <result column="weigh" jdbcType="INTEGER" property="weigh" />
+        <result column="createtime" jdbcType="INTEGER" property="createtime" />
+        <result column="updatetime" jdbcType="INTEGER" property="updatetime" />
+        <result column="deletetime" jdbcType="INTEGER" property="deletetime" />
+
+        <result column="status" jdbcType="INTEGER" property="status" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+    id,name,image,code,summary,weigh,createtime,updatetime,deletetime,status
+  </sql>
+
+    <select id="getSpecialTrainingDataList">
+        select edu_curriculum_category.id type,edu_curriculum_curriculum.curriculumcategory_id detailId,edu_curriculum_curriculum.name name,edu_curriculum_curriculum.image pic,edu_curriculum_curriculum.files file,edu_curriculum_curriculum.summary description
+        from edu_curriculum_category
+        inner join edu_curriculum_curriculum
+        on edu_curriculum_curriculum.curriculumcategory_id = edu_curriculum_category.id;
+    </select>
+
+    <select id="getUserType">
+        select status
+        from edu_class_students where id=#{id};
+    </select>
+
+</mapper>

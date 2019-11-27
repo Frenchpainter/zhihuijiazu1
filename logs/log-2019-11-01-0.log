@@ -1,0 +1,923 @@
+2019-11-01 09:52:41.731 [ main ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplicationTests : 55 ] - Starting ZhihuijiazuApplicationTests on 8XWCGQRZO5LJZ6D with PID 4432 (started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 09:52:41.816 [ main ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplicationTests : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 09:52:48.554 [ main ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplicationTests : 61 ] - Started ZhihuijiazuApplicationTests in 7.746 seconds (JVM running for 9.597)
+2019-11-01 09:53:10.490 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 4916 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 09:53:10.497 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 09:53:13.117 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 09:53:13.124 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 09:53:13.126 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 09:53:13.571 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 09:53:16.144 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 09:53:16.233 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 6.837 seconds (JVM running for 9.702)
+2019-11-01 09:53:40.012 [ http-nio-8080-exec-1 ] - [ INFO  ] [ org.apache.tomcat.util.http.parser.Cookie : 173 ] - A cookie header was received [1566185666,1566442250,1567396762] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-11-01 09:53:40.030 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 09:53:47.461 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 38 ] - 测试发送数据null
+2019-11-01 09:57:38.676 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 6456 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 09:57:38.684 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 09:57:40.775 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 09:57:40.776 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 09:57:40.776 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 09:57:40.885 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 09:57:43.015 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 09:57:43.105 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 5.328 seconds (JVM running for 7.496)
+2019-11-01 10:02:05.706 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 10:02:05.833 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 38 ] - 测试发送数据{"userId":"10468","toUserId":"10470","msg":"测试","sendTime":"2019-10-21 20:13:13"}
+2019-11-01 10:02:33.707 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 38 ] - 测试发送数据{"userId":"10468","toUserId":"10470","msg":"测试","sendTime":"2019-10-21 20:13:13"}
+2019-11-01 10:04:35.692 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 12256 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:04:35.699 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:04:38.233 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:04:38.235 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:04:38.235 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:04:38.539 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:04:40.035 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:04:40.079 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 5.293 seconds (JVM running for 7.829)
+2019-11-01 10:05:06.579 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 2660 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:05:06.587 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:05:09.519 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:05:09.522 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:05:09.523 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:05:10.007 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:05:12.683 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:05:12.786 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 7.13 seconds (JVM running for 9.294)
+2019-11-01 10:05:19.718 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 10:07:11.907 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 6828 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:07:11.913 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:07:13.857 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:07:13.860 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:07:13.862 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:07:14.356 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:07:17.530 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:07:17.609 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 6.593 seconds (JVM running for 8.861)
+2019-11-01 10:07:20.455 [ http-nio-8080-exec-8 ] - [ INFO  ] [ org.apache.tomcat.util.http.parser.Cookie : 173 ] - A cookie header was received [1566185666,1566442250,1567396762] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-11-01 10:07:20.514 [ http-nio-8080-exec-8 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 10:07:54.890 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 10080 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:07:54.896 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:07:57.688 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:07:57.689 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:07:57.690 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:07:57.939 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:07:59.152 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:07:59.197 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 5.504 seconds (JVM running for 7.96)
+2019-11-01 10:08:01.328 [ http-nio-8080-exec-1 ] - [ INFO  ] [ org.apache.tomcat.util.http.parser.Cookie : 173 ] - A cookie header was received [1566185666,1566442250,1567396762] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-11-01 10:08:01.347 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 10:09:48.140 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7044 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:09:48.149 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:09:50.425 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:09:50.426 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:09:50.426 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:09:50.736 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:09:54.008 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:09:54.130 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 7.155 seconds (JVM running for 9.415)
+2019-11-01 10:09:55.925 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 10:09:56.001 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 39 ] - 测试发送数据null
+2019-11-01 10:10:29.830 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 1920 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:10:29.857 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:10:32.094 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:10:32.095 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:10:32.096 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:10:32.497 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:10:35.665 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:10:35.869 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 7.113 seconds (JVM running for 9.168)
+2019-11-01 10:10:37.368 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 10:10:37.442 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 39 ] - 测试发送数据null
+2019-11-01 10:11:54.213 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 1920 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:11:54.214 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:11:55.364 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 10:11:55.625 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:11:55.626 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:11:55.627 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:11:55.728 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:11:56.269 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:11:56.277 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 2.254 seconds (JVM running for 89.576)
+2019-11-01 10:12:28.562 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 1920 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:12:28.563 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:12:29.402 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 10:12:29.578 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:12:29.580 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:12:29.585 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:12:29.729 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:12:29.792 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 10:12:47.611 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 11672 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:12:47.618 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:12:50.075 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:12:50.076 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:12:50.077 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:12:50.504 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:12:53.285 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:12:53.354 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 6.732 seconds (JVM running for 8.835)
+2019-11-01 10:12:54.653 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 10:13:52.007 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7692 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:13:52.014 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:13:54.322 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:13:54.323 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:13:54.324 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:13:54.537 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:13:55.728 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:13:55.824 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 4.692 seconds (JVM running for 6.805)
+2019-11-01 10:14:03.998 [ http-nio-8080-exec-2 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 10:14:26.631 [ http-nio-8080-exec-1 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 991 ] - {dataSource-1} inited
+2019-11-01 10:15:46.317 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 13776 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:15:46.326 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:15:50.208 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:15:50.211 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:15:50.212 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:15:50.484 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:15:52.985 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:15:53.080 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 7.896 seconds (JVM running for 10.785)
+2019-11-01 10:15:53.439 [ http-nio-8080-exec-10 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 10:16:01.342 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 39 ] - 测试发送数据null
+2019-11-01 10:16:28.267 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 13776 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:16:28.268 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:16:29.116 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 10:16:29.320 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:16:29.321 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:16:29.323 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:16:29.406 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:16:29.447 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 10:16:48.842 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 10264 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:16:48.848 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:16:52.500 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:16:52.506 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:16:52.508 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:16:53.077 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:16:55.339 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:16:55.446 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 7.819 seconds (JVM running for 9.893)
+2019-11-01 10:17:00.286 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 10:25:12.136 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 4856 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:25:12.163 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:25:14.887 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:25:14.891 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:25:14.893 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:25:15.344 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:25:18.224 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:25:18.298 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 7.137 seconds (JVM running for 8.881)
+2019-11-01 10:25:19.764 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 10:25:19.841 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 41 ] - 测试发送数据                                                                                     
+2019-11-01 10:26:49.548 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 12164 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:26:49.560 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:26:52.222 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:26:52.226 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:26:52.228 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:26:52.727 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:26:55.264 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:26:55.339 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 6.793 seconds (JVM running for 9.025)
+2019-11-01 10:27:03.753 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 10:27:03.846 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 41 ] - 测试发送数据                                                                                     
+2019-11-01 10:28:38.149 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 8396 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:28:38.159 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:28:41.142 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:28:41.144 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:28:41.145 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:28:41.395 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:28:43.164 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:28:43.234 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 5.993 seconds (JVM running for 8.291)
+2019-11-01 10:28:43.807 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 10:28:43.907 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 41 ] - 测试发送数据                                                                                     
+2019-11-01 10:29:17.170 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 11656 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:29:17.177 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:29:21.138 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:29:21.141 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:29:21.144 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:29:21.766 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:29:23.935 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:29:23.982 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 7.734 seconds (JVM running for 10.032)
+2019-11-01 10:29:24.096 [ http-nio-8080-exec-2 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 10:29:24.165 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 41 ] - 测试发送数据                                                                                     
+2019-11-01 10:32:03.700 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 1540 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:32:03.709 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:32:06.703 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:32:06.704 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:32:06.705 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:32:06.940 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:32:09.192 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:32:09.309 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 6.608 seconds (JVM running for 8.616)
+2019-11-01 10:32:13.584 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 10:32:50.805 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 9476 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:32:50.812 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:32:53.370 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:32:53.371 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:32:53.372 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:32:53.576 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:32:54.880 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:32:54.946 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 5.286 seconds (JVM running for 7.545)
+2019-11-01 10:32:59.826 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 10:34:53.182 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 42 ] - 测试发送数据{"userId":"10468","toUserId":"10470","msg":"测试","sendTime":"2019-10-21 20:13:13"}
+2019-11-01 10:36:51.529 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7592 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:36:51.539 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:36:53.698 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:36:53.700 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:36:53.700 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:36:54.348 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:36:57.144 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:36:57.212 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 6.77 seconds (JVM running for 8.663)
+2019-11-01 10:36:58.594 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 10:36:58.702 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 42 ] - 测试发送数据{"userId":"10468","toUserId":"10470","msg":"测试","sendTime":"2019-10-21 20:13:13"}
+2019-11-01 10:49:31.970 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 42 ] - 测试发送数据{"userId":"10468","toUserId":"10470","msg":"测试","sendTime":"2019-10-21 20:13:13"}
+2019-11-01 10:49:41.985 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:49:42.060 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:49:44.340 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:49:44.341 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:49:44.342 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:49:44.449 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:49:47.336 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:49:47.439 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 6.315 seconds (JVM running for 8.495)
+2019-11-01 10:49:54.891 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 10:49:55.000 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 42 ] - 测试发送数据{"userId":"10468","toUserId":"10470","msg":"测试","sendTime":"2019-10-21 20:13:13"}
+2019-11-01 10:50:28.206 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 42 ] - 测试发送数据Account=18530095917&Password=987654lc&Logintype=1&Identifying_code=7635&Clienttype=2
+2019-11-01 10:50:39.618 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 42 ] - 测试发送数据Account=18530095917&Password=987654lc&Logintype=1&Identifying_code=7635&Clienttype=2
+2019-11-01 10:52:14.544 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 42 ] - 测试发送数据{
+  "Account": 18530095917,
+  "Clienttype": 2,
+  "Identifying_code": 7635,
+  "Logintype": 1,
+  "Password": "987654lc"
+}
+2019-11-01 10:52:36.586 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 42 ] - 测试发送数据{
+  "Account": 18530095917,
+  "Clienttype": 2,
+  "Identifying_code": 7635,
+  "Logintype": 1,
+  "Password": "987654lc"
+}
+2019-11-01 10:56:33.321 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:56:33.322 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:56:33.915 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 10:56:34.035 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:56:34.036 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:56:34.037 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:56:34.089 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:56:34.470 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:56:34.479 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.554 seconds (JVM running for 415.536)
+2019-11-01 10:57:16.392 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 10:57:16.394 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 10:57:17.513 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 10:57:17.822 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 10:57:17.823 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 10:57:17.824 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 10:57:17.971 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 10:57:18.029 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 11:05:49.480 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 11:05:49.484 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 11:05:51.247 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 11:05:51.672 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 11:05:51.675 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 11:05:51.678 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 11:05:51.748 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 11:05:51.776 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 11:06:38.837 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 11:06:38.838 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 11:06:39.951 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 11:06:40.211 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 11:06:40.212 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 11:06:40.213 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 11:06:40.301 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 11:06:40.964 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 11:06:40.973 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 2.308 seconds (JVM running for 1022.029)
+2019-11-01 11:07:13.672 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 11:07:13.673 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 11:07:14.258 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 11:07:14.370 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 11:07:14.370 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 11:07:14.370 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 11:07:14.412 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 11:07:14.685 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 11:07:14.691 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.114 seconds (JVM running for 1055.749)
+2019-11-01 11:10:28.121 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 11:10:28.122 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 11:10:28.682 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 11:10:28.808 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 11:10:28.809 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 11:10:28.809 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 11:10:28.870 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 11:10:29.240 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 11:10:29.248 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.233 seconds (JVM running for 1250.305)
+2019-11-01 11:11:20.912 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 11:11:20.913 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 11:11:21.986 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 11:11:22.146 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 11:11:22.148 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 11:11:22.149 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 11:11:22.198 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 11:11:22.223 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 11:12:27.244 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 11:12:27.245 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 11:12:28.361 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 11:12:28.756 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 11:12:28.772 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 11:12:28.775 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 11:12:28.859 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-3].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 11:12:28.890 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 11:14:34.557 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 11:14:34.558 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 11:14:35.179 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 11:14:35.317 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 11:14:35.319 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 11:14:35.319 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 11:14:35.393 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-4].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 11:14:35.419 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 11:16:31.930 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 11:16:31.932 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 11:16:32.914 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 11:16:33.084 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 11:16:33.086 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 11:16:33.087 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 11:16:33.192 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 11:16:33.716 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 11:16:33.728 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 2.045 seconds (JVM running for 1614.785)
+2019-11-01 11:19:02.396 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 11:26:02.196 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 11:26:02.197 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 11:26:02.871 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 11:26:02.992 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 11:26:02.993 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 11:26:02.994 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 11:26:03.048 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 11:26:03.471 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 11:26:03.480 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.412 seconds (JVM running for 2184.537)
+2019-11-01 11:26:24.516 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 11:26:24.517 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 11:26:25.558 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 11:26:25.732 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 11:26:25.733 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 11:26:25.733 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 11:26:25.793 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 11:26:26.392 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 11:26:26.400 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.97 seconds (JVM running for 2207.456)
+2019-11-01 13:54:00.959 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 13:54:00.960 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 13:54:01.431 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 13:54:01.527 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 13:54:01.527 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 13:54:01.528 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 13:54:01.582 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 13:54:01.877 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 13:54:01.886 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.034 seconds (JVM running for 11062.942)
+2019-11-01 13:54:16.447 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 13:54:16.460 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 13:54:17.930 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 13:54:18.150 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 13:54:18.151 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 13:54:18.151 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 13:54:18.229 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 13:54:18.272 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 13:54:44.402 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 13:54:44.402 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 13:54:45.123 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 13:54:45.277 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 13:54:45.278 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 13:54:45.278 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 13:54:45.359 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-6].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 13:54:45.793 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 13:54:45.800 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.468 seconds (JVM running for 11106.857)
+2019-11-01 13:54:49.686 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 13:54:49.687 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 13:54:50.089 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 13:54:50.165 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 13:54:50.166 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 13:54:50.166 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 13:54:50.206 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-6].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 13:54:50.470 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 13:54:50.475 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 0.867 seconds (JVM running for 11111.533)
+2019-11-01 13:55:07.489 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 13:55:07.490 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 13:55:08.498 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 13:55:08.764 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 13:55:08.765 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 13:55:08.765 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 13:55:08.853 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-6].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 13:55:08.878 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 13:56:39.160 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 13:56:39.161 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 13:56:39.785 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 13:56:39.892 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 13:56:39.892 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 13:56:39.893 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 13:56:39.935 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-7].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 13:56:40.385 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 13:56:40.391 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.3 seconds (JVM running for 11221.448)
+2019-11-01 13:56:49.895 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 13:56:49.896 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 13:56:50.784 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 13:56:51.003 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 13:56:51.008 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 13:56:51.010 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 13:56:51.080 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-7].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 13:56:51.106 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 14:01:34.273 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:01:34.274 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:01:34.899 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:01:35.015 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:01:35.015 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:01:35.016 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:01:35.058 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-8].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:01:35.578 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:01:35.585 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.452 seconds (JVM running for 11516.641)
+2019-11-01 14:02:06.637 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:02:06.638 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:02:07.901 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:02:08.691 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:02:08.695 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:02:08.697 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:02:08.798 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-8].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:02:08.820 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 14:02:58.413 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:02:58.415 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:02:59.536 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:02:59.905 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:02:59.906 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:02:59.906 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:02:59.990 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-9].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:03:00.021 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 14:04:36.971 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:04:36.973 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:04:38.220 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:04:38.760 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:04:38.762 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:04:38.763 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:04:38.854 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-10].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:04:38.881 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 14:06:08.748 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:06:08.749 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:06:09.932 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:06:10.391 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:06:10.393 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:06:10.393 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:06:10.486 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-11].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:06:10.513 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 14:07:21.610 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:07:21.611 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:07:23.492 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:07:23.942 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:07:23.945 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:07:23.945 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:07:24.220 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-12].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:07:24.732 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:07:24.741 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 3.505 seconds (JVM running for 11865.798)
+2019-11-01 14:22:24.637 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:22:24.637 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:22:25.095 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:22:25.198 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:22:25.198 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:22:25.198 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:22:25.234 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-12].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:22:25.532 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:22:25.553 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 0.974 seconds (JVM running for 12766.61)
+2019-11-01 14:29:38.879 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:29:38.880 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:29:39.417 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:29:39.602 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:29:39.603 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:29:39.603 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:29:39.678 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-12].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:29:39.709 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 14:29:51.358 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:29:51.358 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:29:52.155 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:29:52.358 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:29:52.359 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:29:52.359 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:29:52.541 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-13].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:29:53.383 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:29:53.390 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 2.362 seconds (JVM running for 13214.447)
+2019-11-01 14:30:07.093 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:30:07.094 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:30:08.055 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:30:08.259 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:30:08.261 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:30:08.261 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:30:08.335 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-13].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:30:08.733 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:30:08.738 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.862 seconds (JVM running for 13229.795)
+2019-11-01 14:31:14.290 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:31:14.291 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:31:14.848 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:31:15.466 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:31:15.466 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:31:15.466 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:31:15.527 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-13].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:31:15.975 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:31:15.980 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.793 seconds (JVM running for 13297.037)
+2019-11-01 14:31:31.002 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:31:31.002 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:31:31.521 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:31:31.662 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:31:31.663 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:31:31.663 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:31:31.711 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-13].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:31:31.731 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 14:33:04.889 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:33:04.890 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:33:05.797 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:33:05.978 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:33:05.979 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:33:05.979 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:33:06.042 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-14].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:33:06.442 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:33:06.452 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.863 seconds (JVM running for 13407.509)
+2019-11-01 14:33:14.541 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:33:14.542 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:33:15.082 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:33:15.223 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:33:15.223 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:33:15.224 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:33:15.274 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-14].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:33:15.651 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:33:15.659 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.195 seconds (JVM running for 13416.716)
+2019-11-01 14:40:07.016 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:40:07.017 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:40:07.801 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:40:07.999 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:40:08.000 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:40:08.000 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:40:08.091 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-14].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:40:08.141 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 14:40:53.387 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:40:53.387 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:40:53.994 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:40:54.110 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:40:54.111 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:40:54.111 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:40:54.158 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-15].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:40:54.568 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:40:54.573 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.342 seconds (JVM running for 13875.631)
+2019-11-01 14:42:18.040 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:42:18.042 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:42:18.606 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:42:19.004 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:42:19.006 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:42:19.007 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:42:19.181 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-15].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:42:19.687 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:42:19.693 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.797 seconds (JVM running for 13960.75)
+2019-11-01 14:45:05.577 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:45:05.579 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:45:06.652 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:45:06.977 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:45:06.978 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:45:06.979 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:45:07.052 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-15].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:45:07.089 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 14:50:26.753 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:50:26.754 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:50:28.021 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:50:28.564 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:50:28.566 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:50:28.566 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:50:28.715 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-16].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:50:28.756 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 14:51:14.267 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:51:14.268 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:51:15.167 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:51:15.405 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:51:15.406 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:51:15.407 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:51:15.489 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-17].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:51:15.518 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 14:52:52.295 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:52:52.295 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:52:52.804 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:52:52.944 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:52:52.945 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:52:52.945 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:52:52.996 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-18].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:52:53.017 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 14:55:10.627 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14516 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:55:10.628 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:55:11.228 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 14:55:11.426 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:55:11.427 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:55:11.430 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:55:11.534 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-19].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:55:11.960 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:55:11.965 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.404 seconds (JVM running for 14733.022)
+2019-11-01 14:58:36.716 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 8884 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 14:58:36.723 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 14:58:39.255 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:58:39.256 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 14:58:39.256 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 14:58:39.369 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 14:58:41.077 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 14:58:41.160 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 5.366 seconds (JVM running for 7.718)
+2019-11-01 14:59:54.651 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 14:59:54.739 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 79 ] - 测试发送数据{"Account":"10468","Logintype":"1","Password":"123456","sendTime":"2019-10-21 20:13:13"}
+2019-11-01 15:00:31.421 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 11140 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 15:00:31.431 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 15:00:33.669 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:00:33.670 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 15:00:33.671 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 15:00:33.978 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 15:00:36.578 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:00:36.687 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 6.391 seconds (JVM running for 9.118)
+2019-11-01 15:01:28.771 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 15:01:29.099 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 36 ] - 用户登录数据{"Account":"10468","Logintype":"1","Password":"123456","sendTime":"2019-10-21 20:13:13"}
+2019-11-01 15:01:29.286 [ http-nio-8080-exec-1 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 991 ] - {dataSource-1} inited
+2019-11-01 15:03:49.233 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 36 ] - 用户登录数据{"Logintype":"1","Password":"123456","sendTime":"2019-10-21 20:13:13"}
+2019-11-01 15:04:04.745 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 36 ] - 用户登录数据{"Account":"10468","Logintype":"1","Password":"123456","sendTime":"2019-10-21 20:13:13"}
+2019-11-01 15:06:44.865 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 97 ] - 用户注册数据{"Account":"15238610181","Type":"1","Invite_code":"456856412356","Password":"123456"}
+2019-11-01 15:06:45.705 [ http-nio-8080-exec-6 ] - [ ERROR ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 124 ] - 用户注册出错
+2019-11-01 15:07:47.476 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 97 ] - 用户注册数据{"Account":"15238610181","Type":"1","Invite_code":"456856412356","Password":"123456"}
+2019-11-01 15:07:47.593 [ http-nio-8080-exec-9 ] - [ ERROR ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 124 ] - 用户注册出错
+2019-11-01 15:08:10.808 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 97 ] - 用户注册数据{"Account":"15238610181","Type":"1","Invite_code":"456856412356","Password":"123456"}
+2019-11-01 15:08:10.883 [ http-nio-8080-exec-10 ] - [ ERROR ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 124 ] - 用户注册出错
+2019-11-01 15:08:26.317 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 97 ] - 用户注册数据{"Account":"15238610181","Type":"1","Invite_code":"456789123","Password":"123456"}
+2019-11-01 15:09:35.761 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 8088 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 15:09:35.769 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 15:09:38.040 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:09:38.041 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 15:09:38.042 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 15:09:38.258 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 15:09:41.150 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:09:41.250 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 6.505 seconds (JVM running for 9.792)
+2019-11-01 15:10:02.825 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 15:10:03.117 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 99 ] - 用户注册数据{"Account":"15238610181","Type":"1","Invite_code":"456789123","Password":"123456"}
+2019-11-01 15:10:03.288 [ http-nio-8080-exec-1 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 991 ] - {dataSource-1} inited
+2019-11-01 15:11:10.341 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 99 ] - 用户注册数据{"Account":"15238610181","Type":"1","Invite_code":"456789123","Password":"123456"}
+2019-11-01 15:12:40.553 [ Thread-19 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 1928 ] - {dataSource-1} closed
+2019-11-01 15:12:41.058 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 8088 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 15:12:41.060 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 15:12:41.737 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 15:12:41.903 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:12:41.904 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 15:12:41.905 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 15:12:41.971 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 15:12:42.371 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:12:42.378 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.411 seconds (JVM running for 190.92)
+2019-11-01 15:12:50.109 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 12532 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 15:12:50.121 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 15:12:52.479 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:12:52.480 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 15:12:52.481 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 15:12:52.615 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 15:12:55.083 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:12:55.171 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 5.984 seconds (JVM running for 7.879)
+2019-11-01 15:13:03.413 [ http-nio-8080-exec-2 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 15:13:03.694 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 99 ] - 用户注册数据{"Account":"15238610181","Type":"1","Invite_code":"456789123","Password":"123456"}
+2019-11-01 15:13:03.853 [ http-nio-8080-exec-2 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 991 ] - {dataSource-1} inited
+2019-11-01 15:24:12.583 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 38 ] - 用户登录数据{"Account":"15238610181","Invite_code":"456789123","Logintype":"1","Password":"123456"}
+2019-11-01 15:24:49.284 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 6052 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 15:24:49.292 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 15:24:51.641 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:24:51.643 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 15:24:51.645 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 15:24:52.121 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 15:24:55.033 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:24:55.134 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 6.822 seconds (JVM running for 9.35)
+2019-11-01 15:25:06.522 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 15:25:06.742 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 38 ] - 用户登录数据{"Account":"15238610181","Invite_code":"456789123","Logintype":"1","Password":"123456"}
+2019-11-01 15:25:06.972 [ http-nio-8080-exec-1 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 991 ] - {dataSource-1} inited
+2019-11-01 15:25:54.737 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 14996 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 15:25:54.776 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 15:25:56.948 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:25:56.950 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 15:25:56.952 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 15:25:57.440 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 15:26:00.047 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:26:00.109 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 6.318 seconds (JVM running for 8.653)
+2019-11-01 15:26:13.180 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 15:26:13.499 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 38 ] - 用户登录数据{"Account":"15238610181","Invite_code":"456789123","Logintype":"1","Password":"123456"}
+2019-11-01 15:26:13.800 [ http-nio-8080-exec-1 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 991 ] - {dataSource-1} inited
+2019-11-01 15:27:39.458 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 15:27:39.464 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 15:27:41.708 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:27:41.711 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 15:27:41.712 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 15:27:42.222 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 15:27:44.918 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:27:45.010 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 6.335 seconds (JVM running for 8.378)
+2019-11-01 15:28:09.963 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 15:28:10.208 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 38 ] - 用户登录数据{"Account":"15238610181","Invite_code":"456789123","Logintype":"1","Password":"123456"}
+2019-11-01 15:28:10.343 [ http-nio-8080-exec-1 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 991 ] - {dataSource-1} inited
+2019-11-01 15:28:15.976 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 38 ] - 用户登录数据{"Account":"15238610181","Invite_code":"456789123","Logintype":"1","Password":"11111"}
+2019-11-01 15:34:49.196 [ Thread-19 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 1928 ] - {dataSource-1} closed
+2019-11-01 15:34:50.355 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 15:34:50.358 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 15:34:51.556 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 15:34:51.836 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:34:51.837 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 15:34:51.838 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 15:34:51.937 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 15:34:51.970 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 15:44:50.293 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 15:44:50.295 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 15:44:51.935 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 15:44:52.345 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:44:52.346 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 15:44:52.346 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 15:44:52.431 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 15:44:52.459 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 15:44:55.463 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 15:44:55.466 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 15:44:56.091 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 15:44:56.230 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:44:56.231 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 15:44:56.231 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 15:44:56.282 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 15:44:56.754 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:44:56.762 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.397 seconds (JVM running for 1040.131)
+2019-11-01 15:45:26.860 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 15:45:26.861 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 15:45:27.918 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 15:45:28.205 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:45:28.206 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 15:45:28.206 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 15:45:28.306 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 15:45:28.338 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 15:45:35.539 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 15:45:35.539 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 15:45:35.917 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 15:45:36.027 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:45:36.028 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 15:45:36.029 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 15:45:36.076 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-3].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 15:45:36.096 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 15:46:08.239 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 15:46:08.240 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 15:46:09.135 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 15:46:09.406 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:46:09.408 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 15:46:09.409 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 15:46:09.482 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-4].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 15:46:09.800 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:46:09.806 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.744 seconds (JVM running for 1113.175)
+2019-11-01 15:46:25.576 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 15:46:25.577 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 15:46:26.969 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 15:46:27.571 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:46:27.572 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 15:46:27.572 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 15:46:27.728 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-4].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 15:46:27.774 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 15:46:40.598 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 15:46:40.602 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 15:46:42.704 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 15:46:42.997 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 15:46:42.999 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 15:46:42.999 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 15:46:43.059 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 15:46:43.089 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 16:04:44.299 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 16:04:44.300 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 16:04:44.830 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - No MyBatis mapper was found in '[com.zhihui.zhihuijiazu.Dao]' package. Please check your configuration.
+2019-11-01 16:04:44.915 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 16:04:45.116 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:04:45.117 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 16:04:45.117 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 16:04:45.168 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-6].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 16:04:45.190 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 16:04:47.799 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 16:04:47.800 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 16:04:48.253 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 16:04:48.344 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:04:48.345 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 16:04:48.346 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 16:04:48.403 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-7].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 16:04:48.684 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:04:48.690 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 0.953 seconds (JVM running for 2232.058)
+2019-11-01 16:06:01.574 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 16:06:01.575 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 16:06:03.466 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 16:06:03.757 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:06:03.758 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 16:06:03.759 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 16:06:03.919 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-7].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 16:06:03.974 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 16:06:22.063 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 16:06:22.063 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 16:06:23.106 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 16:06:23.506 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:06:23.507 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 16:06:23.507 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 16:06:23.591 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-8].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 16:06:23.617 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 16:08:49.329 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 16:08:49.330 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 16:08:50.482 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 16:08:50.757 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:08:50.758 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 16:08:50.760 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 16:08:50.869 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-9].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 16:08:51.725 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:08:51.746 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 2.626 seconds (JVM running for 2475.114)
+2019-11-01 16:10:16.346 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 16:10:16.347 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 16:10:17.490 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 16:10:18.115 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:10:18.116 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 16:10:18.117 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 16:10:18.176 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-9].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 16:10:18.206 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 16:10:35.009 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 16:10:35.010 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 16:10:35.877 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 16:10:36.127 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:10:36.128 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 16:10:36.129 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 16:10:36.207 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-10].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 16:10:36.722 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:10:36.732 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.866 seconds (JVM running for 2580.1)
+2019-11-01 16:11:08.360 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 16:11:08.361 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 16:11:09.285 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 16:11:09.547 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:11:09.548 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 16:11:09.548 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 16:11:09.623 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-10].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 16:11:09.680 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 16:11:26.455 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 16:11:26.456 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 16:11:27.685 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 16:11:27.953 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:11:27.954 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 16:11:27.955 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 16:11:28.087 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-11].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 16:11:28.123 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 16:11:48.545 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 16:11:48.549 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 16:11:49.485 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 16:11:49.699 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:11:49.700 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 16:11:49.700 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 16:11:49.782 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-12].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 16:11:49.804 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 16:12:57.803 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 16:12:57.803 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 16:12:58.370 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 16:12:58.506 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:12:58.507 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 16:12:58.509 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 16:12:58.564 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-13].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 16:12:58.912 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:12:58.920 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.183 seconds (JVM running for 2722.289)
+2019-11-01 16:19:27.850 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 16:19:27.851 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 16:19:28.991 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 16:19:29.206 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:19:29.207 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 16:19:29.211 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 16:19:29.301 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-13].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 16:19:29.326 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-01 16:33:16.462 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 16:33:16.463 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 16:33:17.154 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 16:33:17.310 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:33:17.310 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 16:33:17.311 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 16:33:17.362 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-14].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 16:33:17.915 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:33:17.923 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.57 seconds (JVM running for 3941.292)
+2019-11-01 16:33:20.767 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 7720 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 16:33:20.768 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 16:33:21.204 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 16:33:21.326 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:33:21.327 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 16:33:21.327 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 16:33:21.369 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-14].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 16:33:21.773 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:33:21.779 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.121 seconds (JVM running for 3945.147)
+2019-11-01 16:34:08.141 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-14].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 16:34:08.156 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 43 ] - 用户登录数据{"Oldpassword":"11111","Newpassword":"123456","User_id":"1","Identifying_code":"456789123"}
+2019-11-01 16:34:19.465 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 9696 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 16:34:19.470 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 16:34:21.796 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:34:21.797 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 16:34:21.797 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 16:34:21.943 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 16:34:23.020 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:34:23.067 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 4.619 seconds (JVM running for 8.329)
+2019-11-01 16:34:44.058 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 16:34:44.236 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 99 ] - 用户注册数据{"Oldpassword":"11111","Newpassword":"123456","User_id":"1","Identifying_code":"456789123"}
+2019-11-01 16:35:57.465 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 1584 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 16:35:57.472 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 16:35:59.450 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:35:59.453 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 16:35:59.455 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 16:35:59.963 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 16:36:02.436 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:36:02.527 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 5.98 seconds (JVM running for 8.118)
+2019-11-01 16:38:33.814 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 16:38:34.108 [ http-nio-8080-exec-1 ] - [ ERROR ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 176 ] - 修改密码出错
+2019-11-01 16:41:58.777 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 8556 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 16:41:58.792 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 16:42:01.133 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:42:01.137 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 16:42:01.139 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 16:42:01.716 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 16:42:04.405 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 16:42:04.510 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 6.66 seconds (JVM running for 9.172)
+2019-11-01 16:42:40.819 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-01 16:42:41.197 [ http-nio-8080-exec-1 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 991 ] - {dataSource-1} inited
+2019-11-01 16:43:29.265 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 43 ] - 用户登录数据{"Account":"15238610181","Invite_code":"456789123","Logintype":"1","Password":"123456"}
+2019-11-01 16:43:35.635 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 43 ] - 用户登录数据{"Account":"15238610181","Invite_code":"456789123","Logintype":"1","Password":"1234qwer"}
+2019-11-01 18:02:53.269 [ Thread-20 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 1928 ] - {dataSource-1} closed
+2019-11-01 18:02:54.133 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 8556 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-01 18:02:54.134 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-01 18:02:54.955 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-01 18:02:55.178 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-01 18:02:55.179 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-01 18:02:55.179 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-01 18:02:55.282 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-01 18:02:56.116 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-01 18:02:56.130 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 2.098 seconds (JVM running for 4860.791)

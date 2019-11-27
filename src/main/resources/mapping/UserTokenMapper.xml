@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhihui.zhihuijiazu.Dao.UserTokenMapper">
+    <resultMap id="BaseResultMap" type="com.zhihui.zhihuijiazu.Entity.UserToken">
+        <id column="token" jdbcType="VARCHAR" property="token" />
+        <result column="user_id" jdbcType="INTEGER" property="userId" />
+        <result column="createtime" jdbcType="INTEGER" property="createtime" />
+        <result column="expiretime" jdbcType="INTEGER" property="expiretime" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        token,user_id,createtime,expiretime
+    </sql>
+
+    <select id="findByUserId" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"></include>
+        from edu_user_token where user_id=#{userId}
+    </select>
+
+    <insert id="insertToken" parameterType="com.zhihui.zhihuijiazu.Entity.UserToken">
+        insert into edu_user_token value(#{token},#{userId},#{createtime},#{expiretime})
+    </insert>
+
+    <delete id="delete">
+        delete from edu_user_token where user_id=#{userId}
+    </delete>
+
+</mapper>

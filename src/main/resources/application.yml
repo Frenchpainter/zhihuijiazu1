@@ -1,0 +1,24 @@
+spring:
+  dataSource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: dev
+    password: dev2019
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://zhipinkeji.tubo.io:90/edu?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8
+
+mybatis:
+  mapper-locations: classpath*:mapping/*.xml
+
+transaction:
+rollback-on-commit-failure: true
+
+
+servlet:
+  multipart:
+    max-file-size: 100MB
+    max-request-size: 100MB
+    enabled: true
+
+filePath:
+  parentDir: C://WEB/htdocs/public
+  ip: http://zhipinkeji.tubo.io:89

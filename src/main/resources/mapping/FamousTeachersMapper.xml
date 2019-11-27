@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhihui.zhihuijiazu.Dao.CurriculumCategoryMapper">
+    <resultMap id="BaseResultMap" type="com.zhihui.zhihuijiazu.Entity.CurriculumCategory">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <result column="school_id" jdbcType="INTEGER" property="school_id" />
+        <result column="code" jdbcType="VARCHAR" property="code" />
+        <result column="username" jdbcType="VARCHAR" property="username" />
+        <result column="password" jdbcType="VARCHAR" property="password" />
+        <result column="salt" jdbcType="VARCHAR" property="salt" />
+        <result column="name" jdbcType="VARCHAR" property="name" />
+        <result column="sex" jdbcType="VARCHAR" property="sex" />
+        <result column="admin_id" jdbcType="VARCHAR" property="admin_id" />
+        <result column="birthday" jdbcType="Date" property="birthday" />
+        <result column="weigh" jdbcType="INTEGER" property="weigh" />
+        <result column="domain" jdbcType="VARCHAR" property="domain" />
+        <result column="certificationlevel" jdbcType="VARCHAR" property="certificationlevel" />
+        <result column="certificationimage" jdbcType="VARCHAR" property="certificationimage" />
+        <result column="createtime" jdbcType="INTEGER" property="createtime" />
+        <result column="updatetime" jdbcType="INTEGER" property="updatetime" />
+        <result column="deletetime" jdbcType="INTEGER" property="deletetime" />
+        <result column="login_ip" jdbcType="VARCHAR" property="login_ip" />
+        <result column="login_at" jdbcType="VARCHAR" property="login_at" />
+        <result column="login_num" jdbcType="INTEGER" property="login_num" />
+        <result column="status" jdbcType="INTEGER" property="status" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+    id,school_id,code,username,password,salt,name,sex,admin_id,birthday,weigh,domain,createtime,certificationlevel,
+    certificationimage,updatetime,deletetime,login_ip,login_at,login_num,status
+  </sql>
+
+    <select id="findTeacherById">
+        select <include refid="Base_Column_List" />
+        from eduforadmin where id=#{id};
+    </select>
+
+</mapper>

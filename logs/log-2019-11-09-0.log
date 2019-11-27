@@ -1,0 +1,786 @@
+2019-11-09 16:09:34.092 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 11836 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-09 16:09:34.110 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-09 16:09:36.791 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-09 16:09:36.792 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-09 16:09:36.793 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-09 16:09:36.977 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-09 16:09:38.320 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-09 16:09:38.366 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 5.393 seconds (JVM running for 9.353)
+2019-11-09 16:09:42.990 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-09 16:09:48.974 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:09:48.981 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:09:51.154 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":1,"User_id":5}
+2019-11-09 16:10:45.632 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1543 ] - 获取特训课程接口userId=6
+2019-11-09 16:11:01.570 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:11:01.574 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:11:02.387 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":2,"User_id":5}
+2019-11-09 16:11:41.038 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":2,"User_id":5}
+2019-11-09 16:11:55.247 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1543 ] - 获取特训课程接口userId=6
+2019-11-09 16:12:45.380 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:12:45.388 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:12:46.521 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":2,"User_id":5}
+2019-11-09 16:13:12.794 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 346 ] - 消息列表{"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","User_id":6,"Clienttype":2,"MsgType":"0"}
+2019-11-09 16:13:23.217 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1543 ] - 获取特训课程接口userId=6
+2019-11-09 16:14:14.334 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:14:14.336 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:14:15.489 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":0,"User_id":5}
+2019-11-09 16:16:00.056 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","User_id":6}
+2019-11-09 16:16:00.056 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","User_id":6,"Teacherid":0}
+2019-11-09 16:19:16.572 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 11836 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-09 16:19:16.575 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-09 16:19:22.859 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-09 16:19:23.154 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-09 16:19:23.161 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-09 16:19:23.165 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-09 16:19:23.279 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-09 16:19:24.743 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-09 16:20:15.578 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 11836 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-09 16:20:15.579 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-09 16:20:18.781 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-09 16:20:19.519 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-09 16:20:19.521 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-09 16:20:19.521 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-09 16:20:19.715 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-09 16:20:19.812 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-09 16:20:42.311 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 11836 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-09 16:20:42.313 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-09 16:20:45.396 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-09 16:20:45.858 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-09 16:20:45.862 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-09 16:20:45.863 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-09 16:20:46.166 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-09 16:20:46.363 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-09 16:21:28.055 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 12300 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-09 16:21:28.082 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-09 16:21:33.837 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-09 16:21:33.840 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-09 16:21:33.842 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-09 16:21:34.457 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-09 16:21:42.375 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-09 16:21:42.487 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 16.929 seconds (JVM running for 22.487)
+2019-11-09 16:21:57.494 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-09 16:22:01.440 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:22:01.440 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:22:03.155 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:22:03.683 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:22:04.229 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:22:08.682 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:22:09.525 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":2,"User_id":5}
+2019-11-09 16:23:51.087 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","User_id":6}
+2019-11-09 16:23:51.095 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","User_id":6,"Teacherid":0}
+2019-11-09 16:23:53.062 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","User_id":6,"Teacherid":0}
+2019-11-09 16:24:49.341 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","User_id":6,"Teacherid":0}
+2019-11-09 16:24:49.342 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","User_id":6}
+2019-11-09 16:24:52.080 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":2,"User_id":5}
+2019-11-09 16:24:59.797 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","User_id":6}
+2019-11-09 16:24:59.807 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","User_id":6,"Teacherid":0}
+2019-11-09 16:25:31.695 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","User_id":6}
+2019-11-09 16:25:31.714 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","User_id":6,"Teacherid":0}
+2019-11-09 16:25:33.707 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","User_id":6,"Teacherid":0}
+2019-11-09 16:25:40.203 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","User_id":6}
+2019-11-09 16:29:28.549 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:29:28.556 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:29:29.551 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":2,"User_id":5}
+2019-11-09 16:30:07.093 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:30:07.096 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:30:07.932 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":0,"User_id":5}
+2019-11-09 16:30:44.421 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:30:44.441 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:30:45.235 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":2,"User_id":5}
+2019-11-09 16:32:56.905 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:32:56.910 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:32:58.435 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":2,"User_id":5}
+2019-11-09 16:34:32.932 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:34:32.932 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:34:33.818 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":2,"User_id":5}
+2019-11-09 16:38:25.436 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:38:25.438 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:38:26.486 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":2,"User_id":5}
+2019-11-09 16:41:56.287 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:41:56.289 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:41:56.930 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":2,"User_id":5}
+2019-11-09 16:42:26.604 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:42:26.614 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:42:27.528 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":2,"User_id":5}
+2019-11-09 16:44:29.345 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:44:29.347 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:44:30.655 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":0,"User_id":5}
+2019-11-09 16:50:23.563 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:50:23.563 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:50:24.486 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":2,"User_id":5}
+2019-11-09 16:51:35.524 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:51:35.525 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:51:36.148 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":0,"User_id":5}
+2019-11-09 16:52:21.498 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:52:21.508 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:52:22.278 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":0,"User_id":5}
+2019-11-09 16:54:17.635 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:54:17.644 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:54:18.823 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":2,"User_id":5}
+2019-11-09 16:54:59.167 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:54:59.180 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:54:59.937 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":0,"User_id":5}
+2019-11-09 16:55:10.871 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":1,"User_id":5}
+2019-11-09 16:55:14.668 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":2,"User_id":5}
+2019-11-09 16:56:43.101 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":0,"User_id":5}
+2019-11-09 16:58:42.926 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 16:58:42.943 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 16:58:54.690 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":2,"User_id":5}
+2019-11-09 17:02:39.470 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:02:39.482 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:02:40.236 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":0,"User_id":5}
+2019-11-09 17:02:43.855 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":0,"User_id":5}
+2019-11-09 17:14:57.053 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","User_id":6}
+2019-11-09 17:14:57.064 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","User_id":6,"Teacherid":0}
+2019-11-09 17:22:26.582 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:22:26.584 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:22:30.682 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:22:31.211 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:22:31.670 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:22:40.800 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":0,"User_id":5}
+2019-11-09 17:24:44.408 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1549 ] - 获取特训课程接口userId=6
+2019-11-09 17:24:46.841 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1549 ] - 获取特训课程接口userId=6
+2019-11-09 17:25:29.113 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","TrainingType":1,"User_id":6}
+2019-11-09 17:25:32.302 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","TrainingType":1,"User_id":6}
+2019-11-09 17:25:35.022 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","TrainingType":1,"User_id":6}
+2019-11-09 17:25:37.987 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","TrainingType":2,"User_id":6}
+2019-11-09 17:25:41.347 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","TrainingType":0,"User_id":6}
+2019-11-09 17:25:44.083 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","User_id":6,"Teacherid":0}
+2019-11-09 17:25:53.459 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","User_id":6}
+2019-11-09 17:25:54.243 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"W4XFKcy23KM10lO016YykaHVmPuSGBkEdgHj2XS1olp80niIOD","TrainingType":1,"User_id":6}
+2019-11-09 17:28:51.559 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:28:51.568 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:28:51.593 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:30:14.883 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1549 ] - 获取特训课程接口userId=6
+2019-11-09 17:31:17.623 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:31:17.671 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:31:17.679 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:32:19.693 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:32:19.736 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:32:19.748 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:33:51.258 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:33:51.261 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:33:56.573 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:34:04.618 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:34:13.600 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:34:16.267 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:34:17.608 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:34:18.093 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:34:18.765 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:35:12.248 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:35:12.254 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:35:12.344 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:35:16.727 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:36:06.860 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1549 ] - 获取特训课程接口userId=6
+2019-11-09 17:37:17.855 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1549 ] - 获取特训课程接口userId=6
+2019-11-09 17:38:44.092 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:38:44.102 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:38:44.230 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:38:44.239 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:38:49.309 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:38:49.321 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:38:52.509 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:38:52.511 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:40:32.909 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:40:32.915 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:40:33.048 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:40:33.049 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:40:44.968 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:40:44.981 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:40:49.857 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:40:49.857 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:40:53.138 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:40:53.148 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:40:55.542 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:40:55.557 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:40:59.134 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:40:59.145 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:41:01.508 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:41:01.517 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:41:21.983 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:41:21.982 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:42:55.287 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 47 ] - 用户登录数据{"Account":"15237125530","Password":"123456","Clienttype":2,"Logintype":1}
+2019-11-09 17:42:55.545 [ http-nio-8080-exec-3 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 991 ] - {dataSource-1} inited
+2019-11-09 17:43:14.066 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 47 ] - 用户登录数据{"Account":"15237125530","Password":"123456","Clienttype":2,"Logintype":1}
+2019-11-09 17:43:14.317 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:43:14.329 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:43:16.167 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:43:16.790 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:43:18.891 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:43:19.310 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:43:22.539 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:43:23.010 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:43:24.046 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:43:24.698 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:43:25.063 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:43:25.742 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:43:26.650 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:43:26.984 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:43:27.545 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:43:28.018 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:43:29.403 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:43:29.799 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:43:38.597 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:43:38.605 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:43:40.057 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 47 ] - 用户登录数据{"Account":"15237125530","Password":"123456","Clienttype":2,"Logintype":1}
+2019-11-09 17:43:41.186 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:43:41.196 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:43:41.521 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:43:42.181 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1300 ] - 获取特训课程详情接口：{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","TrainingType":1,"User_id":5}
+2019-11-09 17:43:52.903 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:43:52.910 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:44:52.079 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:44:52.092 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:44:52.176 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:44:52.183 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:44:53.996 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:44:54.684 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:44:56.403 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:44:57.088 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:44:59.837 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:44:59.839 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:45:02.418 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:45:03.105 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:45:04.064 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:45:04.737 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:45:05.913 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:45:10.909 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:45:10.915 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5,"Teacherid":0}
+2019-11-09 17:45:15.093 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:45:15.097 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:45:41.990 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:45:41.994 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"KE21tcZaifowoye7nstQFSQS0vmqtpFNWRmBtmfPDFS5xrSgHh","User_id":5}
+2019-11-09 17:46:36.956 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"User_id":5}
+2019-11-09 17:46:43.882 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"User_id":5}
+2019-11-09 17:46:44.400 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"User_id":5}
+2019-11-09 17:46:44.681 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"User_id":5}
+2019-11-09 17:46:44.866 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"User_id":5}
+2019-11-09 17:46:45.025 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"User_id":5}
+2019-11-09 17:46:45.177 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"User_id":5}
+2019-11-09 17:46:45.335 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"User_id":5}
+2019-11-09 17:46:45.496 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"User_id":5}
+2019-11-09 17:48:08.514 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 47 ] - 用户登录数据{"Account":"18530095917","Password":"wj1853009","Clienttype":2,"Logintype":1}
+2019-11-09 19:43:06.796 [ http-nio-8080-exec-3 ] - [ ERROR ] [ com.alibaba.druid.pool.DruidPooledStatement : 362 ] - CommunicationsException, druid version 1.1.14, jdbcUrl : jdbc:mysql://zhipinkeji.tubo.io:90/edu?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8, testWhileIdle true, idle millis 7210807, minIdle 0, poolingCount 0, timeBetweenEvictionRunsMillis 60000, lastValidIdleMillis 7210807, driver com.mysql.cj.jdbc.Driver, exceptionSorter com.alibaba.druid.pool.vendor.MySqlExceptionSorter
+2019-11-09 19:43:06.806 [ http-nio-8080-exec-3 ] - [ ERROR ] [ com.alibaba.druid.pool.DruidDataSource : 1691 ] - discard connection
+com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 7,210,632 milliseconds ago. The last packet sent successfully to the server was 7,210,703 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy69.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:271)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93)
+	at com.sun.proxy.$Proxy70.insertUserLog(Unknown Source)
+	at com.zhihui.zhihuijiazu.Service.impl.UserServiceImpl.userLogin(UserServiceImpl.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:353)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy72.userLogin(Unknown Source)
+	at com.zhihui.zhihuijiazu.Controller.UserController.userTest(UserController.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: The last packet successfully received from the server was 7,210,632 milliseconds ago. The last packet sent successfully to the server was 7,210,703 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:539)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:703)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:642)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:941)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1075)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:930)
+	... 83 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107)
+	at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150)
+	at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:533)
+	... 88 common frames omitted
+2019-11-09 19:43:06.990 [ http-nio-8080-exec-3 ] - [ ERROR ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 113 ] - 用户登录出错org.springframework.dao.RecoverableDataAccessException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 7,210,632 milliseconds ago. The last packet sent successfully to the server was 7,210,703 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+### The error may exist in file [D:\project\zhihuijiazu\target\classes\mapping\UserMapper.xml]
+### The error may involve com.zhihui.zhihuijiazu.Dao.UserMapper.insertUserLog-Inline
+### The error occurred while setting parameters
+### SQL: insert into edu_user_loginlog(user_id,logintime,terminal,logintype)         value(?,?,?,?)
+### Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 7,210,632 milliseconds ago. The last packet sent successfully to the server was 7,210,703 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+; The last packet successfully received from the server was 7,210,632 milliseconds ago. The last packet sent successfully to the server was 7,210,703 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 7,210,632 milliseconds ago. The last packet sent successfully to the server was 7,210,703 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+2019-11-09 19:43:24.299 [ http-nio-8080-exec-9 ] - [ ERROR ] [ com.alibaba.druid.pool.DruidPooledStatement : 362 ] - CommunicationsException, druid version 1.1.14, jdbcUrl : jdbc:mysql://zhipinkeji.tubo.io:90/edu?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8, testWhileIdle true, idle millis 7210115, minIdle 0, poolingCount 0, timeBetweenEvictionRunsMillis 60000, lastValidIdleMillis 7210115, driver com.mysql.cj.jdbc.Driver, exceptionSorter com.alibaba.druid.pool.vendor.MySqlExceptionSorter
+2019-11-09 19:43:24.303 [ http-nio-8080-exec-9 ] - [ ERROR ] [ com.alibaba.druid.pool.DruidDataSource : 1691 ] - discard connection
+com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 7,210,072 milliseconds ago. The last packet sent successfully to the server was 7,210,082 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy69.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:271)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93)
+	at com.sun.proxy.$Proxy70.insertUserLog(Unknown Source)
+	at com.zhihui.zhihuijiazu.Service.impl.UserServiceImpl.userLogin(UserServiceImpl.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:353)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy72.userLogin(Unknown Source)
+	at com.zhihui.zhihuijiazu.Controller.UserController.userTest(UserController.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: The last packet successfully received from the server was 7,210,072 milliseconds ago. The last packet sent successfully to the server was 7,210,082 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:539)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:703)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:642)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:941)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1075)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:930)
+	... 83 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107)
+	at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150)
+	at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:533)
+	... 88 common frames omitted
+2019-11-09 19:43:24.313 [ http-nio-8080-exec-9 ] - [ ERROR ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 113 ] - 用户登录出错org.springframework.dao.RecoverableDataAccessException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 7,210,072 milliseconds ago. The last packet sent successfully to the server was 7,210,082 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+### The error may exist in file [D:\project\zhihuijiazu\target\classes\mapping\UserMapper.xml]
+### The error may involve com.zhihui.zhihuijiazu.Dao.UserMapper.insertUserLog-Inline
+### The error occurred while setting parameters
+### SQL: insert into edu_user_loginlog(user_id,logintime,terminal,logintype)         value(?,?,?,?)
+### Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 7,210,072 milliseconds ago. The last packet sent successfully to the server was 7,210,082 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+; The last packet successfully received from the server was 7,210,072 milliseconds ago. The last packet sent successfully to the server was 7,210,082 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 7,210,072 milliseconds ago. The last packet sent successfully to the server was 7,210,082 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+2019-11-09 19:43:50.303 [ http-nio-8080-exec-8 ] - [ ERROR ] [ com.alibaba.druid.pool.DruidPooledStatement : 362 ] - CommunicationsException, druid version 1.1.14, jdbcUrl : jdbc:mysql://zhipinkeji.tubo.io:90/edu?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8, testWhileIdle true, idle millis 7210123, minIdle 0, poolingCount 0, timeBetweenEvictionRunsMillis 60000, lastValidIdleMillis 7210123, driver com.mysql.cj.jdbc.Driver, exceptionSorter com.alibaba.druid.pool.vendor.MySqlExceptionSorter
+2019-11-09 19:43:50.308 [ http-nio-8080-exec-8 ] - [ ERROR ] [ com.alibaba.druid.pool.DruidDataSource : 1691 ] - discard connection
+com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 7,210,070 milliseconds ago. The last packet sent successfully to the server was 7,210,092 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy69.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:271)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93)
+	at com.sun.proxy.$Proxy70.insertUserLog(Unknown Source)
+	at com.zhihui.zhihuijiazu.Service.impl.UserServiceImpl.userLogin(UserServiceImpl.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:353)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy72.userLogin(Unknown Source)
+	at com.zhihui.zhihuijiazu.Controller.UserController.userTest(UserController.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: The last packet successfully received from the server was 7,210,070 milliseconds ago. The last packet sent successfully to the server was 7,210,092 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:539)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:703)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:642)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:941)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1075)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:930)
+	... 83 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107)
+	at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150)
+	at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:533)
+	... 88 common frames omitted
+2019-11-09 19:43:50.319 [ http-nio-8080-exec-8 ] - [ ERROR ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 113 ] - 用户登录出错org.springframework.dao.RecoverableDataAccessException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 7,210,070 milliseconds ago. The last packet sent successfully to the server was 7,210,092 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+### The error may exist in file [D:\project\zhihuijiazu\target\classes\mapping\UserMapper.xml]
+### The error may involve com.zhihui.zhihuijiazu.Dao.UserMapper.insertUserLog-Inline
+### The error occurred while setting parameters
+### SQL: insert into edu_user_loginlog(user_id,logintime,terminal,logintype)         value(?,?,?,?)
+### Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 7,210,070 milliseconds ago. The last packet sent successfully to the server was 7,210,092 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+; The last packet successfully received from the server was 7,210,070 milliseconds ago. The last packet sent successfully to the server was 7,210,092 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 7,210,070 milliseconds ago. The last packet sent successfully to the server was 7,210,092 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+2019-11-09 19:48:18.753 [ http-nio-8080-exec-6 ] - [ ERROR ] [ com.alibaba.druid.pool.DruidPooledStatement : 362 ] - CommunicationsException, druid version 1.1.14, jdbcUrl : jdbc:mysql://zhipinkeji.tubo.io:90/edu?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8, testWhileIdle true, idle millis 7210112, minIdle 0, poolingCount 0, timeBetweenEvictionRunsMillis 60000, lastValidIdleMillis 7210112, driver com.mysql.cj.jdbc.Driver, exceptionSorter com.alibaba.druid.pool.vendor.MySqlExceptionSorter
+2019-11-09 19:48:18.759 [ http-nio-8080-exec-6 ] - [ ERROR ] [ com.alibaba.druid.pool.DruidDataSource : 1691 ] - discard connection
+com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 7,210,068 milliseconds ago. The last packet sent successfully to the server was 7,210,080 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy69.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:271)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93)
+	at com.sun.proxy.$Proxy70.insertUserLog(Unknown Source)
+	at com.zhihui.zhihuijiazu.Service.impl.UserServiceImpl.userLogin(UserServiceImpl.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:353)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy72.userLogin(Unknown Source)
+	at com.zhihui.zhihuijiazu.Controller.UserController.userTest(UserController.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: The last packet successfully received from the server was 7,210,068 milliseconds ago. The last packet sent successfully to the server was 7,210,080 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:539)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:703)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:642)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:941)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1075)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:930)
+	... 83 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107)
+	at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150)
+	at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:533)
+	... 88 common frames omitted
+2019-11-09 19:48:18.765 [ http-nio-8080-exec-6 ] - [ ERROR ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 113 ] - 用户登录出错org.springframework.dao.RecoverableDataAccessException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 7,210,068 milliseconds ago. The last packet sent successfully to the server was 7,210,080 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+### The error may exist in file [D:\project\zhihuijiazu\target\classes\mapping\UserMapper.xml]
+### The error may involve com.zhihui.zhihuijiazu.Dao.UserMapper.insertUserLog-Inline
+### The error occurred while setting parameters
+### SQL: insert into edu_user_loginlog(user_id,logintime,terminal,logintype)         value(?,?,?,?)
+### Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 7,210,068 milliseconds ago. The last packet sent successfully to the server was 7,210,080 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+; The last packet successfully received from the server was 7,210,068 milliseconds ago. The last packet sent successfully to the server was 7,210,080 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 7,210,068 milliseconds ago. The last packet sent successfully to the server was 7,210,080 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.

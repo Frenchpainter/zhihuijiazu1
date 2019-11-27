@@ -1,0 +1,230 @@
+2019-11-11 09:26:26.619 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 47 ] - 用户登录数据{"Account":"18530095917","Password":"wj1853009","Clienttype":2,"Logintype":1}
+2019-11-11 09:26:47.941 [ Druid-ConnectionPool-Create-160743759 ] - [ ERROR ] [ com.alibaba.druid.pool.DruidDataSource : 2572 ] - create connection SQLException, url: jdbc:mysql://zhipinkeji.tubo.io:90/edu?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1578)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1644)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2570)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 6 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 9 common frames omitted
+2019-11-11 09:27:08.952 [ Druid-ConnectionPool-Create-160743759 ] - [ ERROR ] [ com.alibaba.druid.pool.DruidDataSource : 2572 ] - create connection SQLException, url: jdbc:mysql://zhipinkeji.tubo.io:90/edu?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1578)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1644)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2570)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 6 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 9 common frames omitted
+2019-11-11 09:27:30.476 [ Druid-ConnectionPool-Create-160743759 ] - [ ERROR ] [ com.alibaba.druid.pool.DruidDataSource : 2572 ] - create connection SQLException, url: jdbc:mysql://zhipinkeji.tubo.io:90/edu?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1578)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1644)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2570)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 6 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 9 common frames omitted
+2019-11-11 09:44:32.985 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:44:32.989 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5,"Teacherid":0}
+2019-11-11 09:44:33.050 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:44:33.061 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:44:37.275 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:44:37.284 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:44:39.496 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:44:39.496 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:44:41.367 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5,"Teacherid":0}
+2019-11-11 09:44:42.066 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:44:42.797 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5,"Teacherid":0}
+2019-11-11 09:44:43.409 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:44:44.187 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:44:44.614 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5,"Teacherid":0}
+2019-11-11 09:44:45.069 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:46:29.582 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:46:29.585 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5,"Teacherid":0}
+2019-11-11 09:46:29.631 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:46:29.642 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:46:46.334 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:46:46.352 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5,"Teacherid":0}
+2019-11-11 09:46:46.367 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:46:46.368 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:46:46.419 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:46:46.419 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:47:09.069 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:47:09.075 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5,"Teacherid":0}
+2019-11-11 09:47:09.087 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:47:09.090 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:47:09.181 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:47:09.188 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:47:11.228 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:47:11.224 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:47:49.620 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:47:49.625 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5,"Teacherid":0}
+2019-11-11 09:47:53.522 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:47:54.669 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:47:57.721 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5,"Teacherid":0}
+2019-11-11 09:47:57.728 [ http-nio-8080-exec-6 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5,"Teacherid":0}
+2019-11-11 09:48:00.640 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 09:48:00.640 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 10:01:02.224 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 10:01:02.226 [ http-nio-8080-exec-9 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 10:01:14.212 [ http-nio-8080-exec-5 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 10:01:16.608 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5,"Teacherid":0}
+2019-11-11 10:02:52.179 [ Thread-11 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 1928 ] - {dataSource-1} closed
+2019-11-11 10:03:10.176 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 12300 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-11 10:03:10.177 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-11 10:03:10.731 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - No MyBatis mapper was found in '[com.zhihui.zhihuijiazu.Dao]' package. Please check your configuration.
+2019-11-11 10:03:10.841 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-11 10:03:11.166 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-11 10:03:11.167 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-11 10:03:11.301 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-11 10:03:12.178 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-11 10:03:13.835 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 12300 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-11 10:03:13.835 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-11 10:03:14.698 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-11 10:03:14.893 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-11 10:03:14.894 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-11 10:03:14.968 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-11 10:03:15.478 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 1.746 seconds (JVM running for 150115.478)
+2019-11-11 10:03:19.466 [ main ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplicationTests : 55 ] - Starting ZhihuijiazuApplicationTests on 8XWCGQRZO5LJZ6D with PID 6908 (started by Administrator in D:\project\zhihuijiazu)
+2019-11-11 10:03:19.478 [ main ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplicationTests : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-11 10:03:25.780 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-11 10:03:28.587 [ main ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplicationTests : 61 ] - Started ZhihuijiazuApplicationTests in 9.908 seconds (JVM running for 12.626)
+2019-11-11 10:03:44.593 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1189 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 10:03:44.621 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5,"Teacherid":0}
+2019-11-11 10:03:44.681 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 10:03:44.686 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 567 ] - 获取有声读物数据：{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 10:23:36.307 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 9812 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-11 10:23:36.315 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-11 10:23:40.660 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-11 10:23:40.664 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-11 10:23:40.665 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-11 10:23:41.082 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-11 10:23:43.590 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-11 10:23:43.677 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 8.684 seconds (JVM running for 12.899)
+2019-11-11 10:33:02.315 [ http-nio-8080-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-11 10:33:04.224 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5,"Teacherid":0}
+2019-11-11 10:33:04.227 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1191 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 10:33:40.749 [ http-nio-8080-exec-7 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5,"Teacherid":0}
+2019-11-11 10:35:02.463 [ http-nio-8080-exec-8 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 681 ] - 获取详情：{"DetailId":2,"BookType":1,"User_id":5}
+2019-11-11 10:37:38.669 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1191 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 10:37:38.670 [ http-nio-8080-exec-3 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5,"Teacherid":0}
+2019-11-11 10:37:40.869 [ http-nio-8080-exec-4 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5,"Teacherid":0}
+2019-11-11 10:40:50.864 [ http-nio-8080-exec-10 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 1191 ] - 获取特训课程列表:{"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5}
+2019-11-11 10:40:50.867 [ http-nio-8080-exec-1 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5,"Teacherid":0}
+2019-11-11 10:40:52.216 [ http-nio-8080-exec-2 ] - [ INFO  ] [ c.zhihui.zhihuijiazu.Service.impl.UserServiceImpl : 411 ] - 获取名师精品接口{"Orderby":"new","Typeid":0,"Clienttype":2,"Token":"ZovN24YSEwWSFHEe2gYSf1g4M9c5cc9IoUM26qdULzEp1gDlBY","User_id":5,"Teacherid":0}
+2019-11-11 10:46:51.990 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 9812 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-11 10:46:51.991 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-11 10:46:53.697 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - No MyBatis mapper was found in '[com.zhihui.zhihuijiazu.Dao]' package. Please check your configuration.
+2019-11-11 10:46:53.971 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-11 10:46:54.204 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-11 10:46:54.204 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-11 10:46:54.291 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-11 10:46:54.636 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-11-11 10:46:57.888 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 55 ] - Starting ZhihuijiazuApplication on 8XWCGQRZO5LJZ6D with PID 9812 (D:\project\zhihuijiazu\target\classes started by Administrator in D:\project\zhihuijiazu)
+2019-11-11 10:46:57.889 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-11 10:46:58.977 [ restartedMain ] - [ WARN  ] [ org.apache.tomcat.util.modeler.Registry : 173 ] - The MBean registry cannot be disabled because it has already been initialised
+2019-11-11 10:46:59.507 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-11-11 10:46:59.508 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-11 10:47:00.003 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-11-11 10:47:07.113 [ restartedMain ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplication : 61 ] - Started ZhihuijiazuApplication in 9.428 seconds (JVM running for 1416.336)
+2019-11-11 10:47:23.726 [ main ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplicationTests : 55 ] - Starting ZhihuijiazuApplicationTests on 8XWCGQRZO5LJZ6D with PID 12644 (started by Administrator in D:\project\zhihuijiazu)
+2019-11-11 10:47:23.753 [ main ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplicationTests : 651 ] - No active profile set, falling back to default profiles: default
+2019-11-11 10:47:35.254 [ main ] - [ INFO  ] [ com.zhihui.zhihuijiazu.ZhihuijiazuApplicationTests : 61 ] - Started ZhihuijiazuApplicationTests in 13.173 seconds (JVM running for 27.376)

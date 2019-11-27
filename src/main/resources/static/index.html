@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+</head>
+
+<style type="text/css">
+    table td {
+        text-align: center;
+    }
+    table {
+        border-collapse: collapse;
+    }
+    h3 {
+        text-align: center;
+    }
+    div {
+        margin: 0 auto;
+        width: 700px;
+    }
+</style>
+
+<body>
+
+<div>
+
+    <table border="2" style="margin-top: 20px;width: 700px;height: 60px">
+        <thead>
+        <tr>
+            <td align="center" colspan="6"><h3>用户信息</h3></td>
+        </tr>
+        <tr>
+            <!--<th>ID</th>-->
+            <th>账户</th>
+            <th>密码</th>
+            <th>性别</th>
+            <th>邮箱</th>
+        </tr>
+        </thead>
+
+        <tbody></tbody>
+    </table>
+</div>
+
+<script type="text/javascript">
+    $(function(){
+        loadData();
+    })
+</script>
+
+<script type="text/javascript">
+
+    function loadData(){
+        $.ajax({
+            type:"get",
+            url:"userAll.do",
+            dataType:"json",
+            success:function(data){
+                if (data.code == 1){
+                    var infos = data.data;
+                    $("tbody").empty();
+                    $(infos).each(function () {
+                        var html = '<tr>';
+                        html += '<td>' + this.account + '</td>';
+                        html += '<td>' + this.password + '</td>';
+                        html += '<td>' + this.sex + '</td>';
+                        html += '<td>' + this.email + '</td>';
+                        html += '</tr>';
+                        $("table").append($(html));
+                    })
+                }else{
+                    alert(data.data);
+                }
+            },
+        })
+    }
+</script>
+
+</body>
+</html>
